@@ -95,7 +95,7 @@ av_daily_act <- aggregate(steps~interval, data, mean, na.rm = TRUE )
 plot(steps ~ interval, av_daily_act, type = "l", main="Average number of steps")
 ```
 
-![](Reproducible-Research-Course-Project-1_files/figure-html/average daily_activity_pattern-1.png)<!-- -->
+![](Reproducible-Research-Course-Project-1_files/figure-html/average_daily_activity_pattern-1.png)<!-- -->
 
 ```r
 #Interval with mximum number of steps
